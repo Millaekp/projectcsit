@@ -1,0 +1,118 @@
+
+
+
+body {
+
+    background-color: rgb(255, 255, 255);
+    font-family: 'Nunito', sans-serif;
+
+}
+
+.jumbotron {
+
+background-color: #fae2d6;
+
+}
+
+
+
+img[src*="logoiso"] {
+
+max-width: 600px;
+align-items: right;
+
+}
+
+
+
+#footercontainer {
+
+background-color: rgb(255, 255, 255) !important;
+position: center;
+width: 100vw;
+left: calc(-50vw + 50%);
+
+}
+
+
+
+.navbar {
+
+background-color:#fae2d6; /* change */
+font-size: large;
+font: bold;
+
+
+
+}
+.button {
+    background-color: white; /* change */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 10px;
+    style: "float-right";
+    border-radius: 4px;
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: lightgrey; /* change */
+    color: black;
+
+    .button {
+        display: inline-block;
+        border-radius: 4px;
+        background-color: #f4511e;
+        border: none;
+        color: #FFFFFF;
+        text-align: center;
+        font-size: 28px;
+        padding: 20px;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+      }
+      
+      .button span {
+        cursor: pointer;
+        display: inline-block;
+        position: relative;
+        transition: 0.5s;
+      }
+      
+      .button span:after {
+        content: '\00bb';
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+      }
+      
+      .button:hover span {
+        padding-right: 25px;
+      }
+      
+      .button:hover span:after {
+        opacity: 1;
+        right: 0;
+      }
+
+      .jumbotron {
+      
+      align-items: center;
+      
+       text-align: center;
+
+      }
+
+      .row {
+
+      align-items: center;
+      }
